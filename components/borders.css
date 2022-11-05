@@ -1,0 +1,27 @@
+.rounded{
+    border-radius: var(--border-radius) !important;
+}
+.rounded-1{
+    border-radius: var(--border-radius-1) !important;
+}
+.rounded-2{
+    border-radius: var(--border-radius-2) !important;
+}
+.rounded-3{
+    border-radius: var(--border-radius-3) !important;
+}
+
+.rounded-circle{
+    border-radius: var(--border-radius-circle) !important;
+}
+
+.border{
+    border-color: var(--color-gray) !important;
+}
+.border-primary{
+    border-color: var(--color-primary) !important;
+}
+.border-secondary{
+    border-color: var(--color-secondary) !important;
+}
+

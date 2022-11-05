@@ -1,0 +1,117 @@
+:root {
+
+    /* color values*/
+    --white: 255, 255, 255;
+
+    --primary: 13, 110, 253;
+    --primary-100: 207, 226, 255;
+    --primary-200: 158, 197, 254;
+    --primary-300: 110, 168, 254;
+    --primary-400: 61, 139, 253;
+    --primary-500: 13, 110, 253;
+    --primary-600: 10, 88, 202;
+    --primary-700: 8, 66, 152;
+    --primary-800: 5, 44, 101;
+    --primary-900: 3, 22, 51;
+
+    --secondary: 102, 16, 242;
+    --secondary-100: 224, 207, 252;
+    --secondary-200: 194, 159, 250;
+    --secondary-300: 164, 112, 247;
+    --secondary-400: 133, 64, 245;
+    --secondary-500: 102, 16, 242;
+    --secondary-600: 82, 13, 194;
+    --secondary-700: 61, 10, 145;
+    --secondary-800: 41, 6, 97;
+    --secondary-900: 20, 3, 48;
+
+    --gray: 173, 181, 189;
+    --gray-100: 248, 249, 250;
+    --gray-200: 233, 236, 239;
+    --gray-300: 222, 226, 230;
+    --gray-400: 206, 212, 218;
+    --gray-500: 173, 181, 189;
+    --gray-600: 108, 117, 125;
+    --gray-700: 73, 80, 87;
+    --gray-800: 52, 58, 64;
+    --gray-900: 33, 37, 41;
+
+    /* alpha */
+    --alpha-low: .2; 
+    --alpha-regular: .4; 
+    --alpha-high: .6; 
+
+    /* color */
+    --color-white: rgb(var(--white));
+    --color-primary: rgb(var(--primary));
+    --color-primary-100: rgb(var(--primary-100));
+    --color-primary-200: rgb(var(--primary-200));
+    --color-primary-300: rgb(var(--primary-300));
+    --color-primary-400: rgb(var(--primary-400));
+    --color-primary-500: rgb(var(--primary-500));
+    --color-primary-600: rgb(var(--primary-600));
+    --color-primary-700: rgb(var(--primary-700));
+    --color-primary-800: rgb(var(--primary-800));
+    --color-primary-900: rgb(var(--primary-900));
+
+    --color-secondary: rgb(var(--secondary));
+    --color-secondary-100: rgb(var(--secondary-100));
+    --color-secondary-200: rgb(var(--secondary-200));
+    --color-secondary-300: rgb(var(--secondary-300));
+    --color-secondary-400: rgb(var(--secondary-400));
+    --color-secondary-500: rgb(var(--secondary-500));
+    --color-secondary-600: rgb(var(--secondary-600));
+    --color-secondary-700: rgb(var(--secondary-700));
+    --color-secondary-800: rgb(var(--secondary-800));
+    --color-secondary-900: rgb(var(--secondary-900));
+
+    --color-gray: rgb(var(--gray));
+    --color-gray-100: rgb(var(--gray-100));
+    --color-gray-200: rgb(var(--gray-200));
+    --color-gray-300: rgb(var(--gray-300));
+    --color-gray-400: rgb(var(--gray-400));
+    --color-gray-500: rgb(var(--gray-500));
+    --color-gray-600: rgb(var(--gray-600));
+    --color-gray-700: rgb(var(--gray-700));
+    --color-gray-800: rgb(var(--gray-800));
+    --color-gray-900: rgb(var(--gray-900));
+
+    
+    /* Shadow */
+    --shadow-btn: 0 0 0 4px;
+    --shadow-sm:  0 2px 4px;
+    --shadow-regular:  0 8px 16px;
+    --shadow-lg:  0 16px 48px;
+
+    /* border radius */
+    --border-radius: 4px;
+    --border-radius-1: 8px;
+    --border-radius-2: 14px;
+    --border-radius-3: 20px;
+    --border-radius-circle: 100%;
+
+    /* font */
+    --display-font: 'Playfair Display', serif;
+    --defult-font:'Roboto', sans-serif;
+    /* font size */
+    --font-size-defult: 1rem;
+    --font-size-small: 0.875rem;
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 2rem;
+    --font-size-h3: 1.6875rem;
+    --font-size-h4: 1.492rem;
+    --font-size-h5: 1.25rem;
+    --font-size-h6: 1rem;
+    --font-size-display1: 4.875rem;
+    --font-size-display2: 4.375rem;
+    --font-size-display3: 3.875rem;
+    --font-size-display4: 3.375rem;
+    --font-size-display5: 2.9375rem;
+    --font-size-display6: 2.4375rem;
+    /* font weight*/
+    --font-weight-thin: 100;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+  }

@@ -1,0 +1,29 @@
+.shadow-sm{
+    box-shadow: var(--shadow-sm) rgba(var(--gray), var(--alpha-low)) !important;
+}
+.shadow-lg{
+    box-shadow: var(--shadow-lg) rgba(var(--gray), var(--alpha-low)) !important;
+}
+.shadow{
+    box-shadow: var(--shadow-regular) rgba(var(--gray), var(--alpha-low)) !important;
+}
+
+.shadow-sm-primary{
+    box-shadow: var(--shadow-sm) rgba(var(--primary), var(--alpha-low));
+}
+.shadow-lg-primary{
+    box-shadow: var(--shadow-lg) rgba(var(--primary), var(--alpha-low));
+}
+.shadow-primary{
+    box-shadow: var(--shadow-regular) rgba(var(--primary), var(--alpha-low));
+}
+
+.shadow-sm-secondary{
+    box-shadow: var(--shadow-sm) rgba(var(--secondary), var(--alpha-low));
+}
+.shadow-lg-secondary{
+    box-shadow: var(--shadow-lg) rgba(var(--secondary), var(--alpha-low));
+}
+.shadow-secondary{
+    box-shadow: var(--shadow-regular) rgba(var(--secondary), var(--alpha-low));
+}
